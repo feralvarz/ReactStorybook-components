@@ -1,0 +1,19 @@
+// Background Utility
+
+$bg-colors: (
+  "white": #fff,
+  "100": #f7f8fa,
+  "200": #dcdce0,
+  "300": #9c9ca1,
+  "400": #626366,
+  "black": #1d1d1f,
+  "primary": $blue,
+  "sucess": $green,
+  "danger": $red
+);
+
+@each $key, $color in $bg-colors {
+  .bg-#{$key} {
+    background-color: $color;
+  }
+}

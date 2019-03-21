@@ -1,0 +1,18 @@
+// Custom Styles for tables
+.dim-table {
+  font-family: "Monserrat", sans-serif !important;
+  tbody {
+    tr {
+      &:last-child td {
+        border-bottom: none;
+      }
+      td:first-child {
+        padding-left: 0;
+      }
+
+      td:last-child {
+        padding-right: 0;
+      }
+    }
+  }
+}

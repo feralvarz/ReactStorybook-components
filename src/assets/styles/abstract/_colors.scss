@@ -1,0 +1,49 @@
+// B&W Colors
+
+$white: #fff;
+$gray-100: #f7f8fa;
+$gray-200: #dcdce0;
+$gray-300: #9c9ca1;
+$gray-400: #626366;
+$black: #1d1d1f;
+
+// Colors
+
+$blue: #1e88e5;
+$purple: #5948c6;
+$pink: #e14c90;
+$rose: #db79d7;
+$red: #d94441;
+$orange: #ff743d;
+$yellow: #f7b931;
+$yellow-green: #a7c23a;
+$green: #3eb045;
+$teal: #26babc;
+
+// Scale Colors
+$scale: (
+  "0": $red,
+  "1": $orange,
+  "2": $yellow,
+  "3": $yellow-green,
+  "4": $green
+);
+
+$category: (
+  "0": $teal,
+  "1": $blue,
+  "2": $purple,
+  "3": $rose,
+  "4": $pink
+);
+
+// Theme Colors
+
+$primary: $blue;
+$secondary: $gray-100;
+$success: $green;
+$info: $blue;
+$warning: $yellow;
+$danger: $red;
+$light: $gray-100;
+$dark: $gray-400;

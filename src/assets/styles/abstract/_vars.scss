@@ -1,0 +1,33 @@
+// Body
+$body-bg: $gray-100;
+$body-color: $black;
+
+// Spacer
+$spacer: 0.5rem;
+
+// Grid System
+$grid-gutter-width: 24px;
+
+// Fonts
+$font-family-base: "Montserrat", sans-serif;
+$headings-font-family: "Montserrat", sans-serif;
+
+$font-weight-lighter: 200;
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 500;
+$font-weight-bolder: 600;
+
+// Font size base, is coming from html = 12px;
+$font-size-base: 1rem;
+
+$h1-font-size: $font-size-base * 8; // 96px
+$h2-font-size: $font-size-base * 5.33333333; // 64px
+$h3-font-size: $font-size-base * 4; // 48px
+$h4-font-size: $font-size-base * 2.83333333; // 34px
+$h5-font-size: $font-size-base * 2.33333333; // 28px
+$h6-font-size: $font-size-base * 1.66666667; // 20px
+
+$font-weight-base: $font-weight-normal;
+
+$headings-color: $black;
